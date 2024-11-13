@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href=<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid home">
+        <div class="home2">
+            <div id="heading">
+                <h1>To Do App</h1>
+            </div>
+        
+            <div class="text-center  pt-4 ">
+                <input id="input" placeholder="add items" class="inputfield border-0 mb-4" type="text">
+                <button onclick="add()" class="btn1 border-0"><b>Add List</b></button>
+                <button onclick="deleteAll()" class="btn2 border-0"><b>Delete All</b></button>
+              </div>
+              <div>
+                <ul id="unorderList"></ul>
+              </div>
+        </div>
+    
+    </div>
+    <script src="app.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

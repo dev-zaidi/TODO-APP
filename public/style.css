@@ -1,0 +1,52 @@
+
+body {
+    background:url(images/bg-11.jpg);
+}
+.home2{
+    background:white;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px 8px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.inputfield {
+    height: 10vh;
+    width: 50vh;
+    border-radius: 12px;
+    padding-left: 15px;
+    background-color:azure;
+}
+
+.btn1,.btn2,.btn3,.btn4{
+    border-radius: 12px;
+    height: 6vh;
+    color:black;
+    border: none;
+}
+.btn1 {
+    background-color:rgb(155, 243, 155);
+    width: 18vh;
+}
+
+.btn2 {
+    background-color:rgb(243, 74, 74);
+    width: 18vh;
+}
+
+.btn3 {
+    background-color:rgb(243, 74, 74);
+    margin: 10px;
+    width: 11vh;
+    
+}
+.btn4 {
+    background-color:rgb(87, 130, 196);
+    margin: 10px;
+    width: 11vh;
+}
+.list {
+    color:black;
+    list-style: none;
+}
